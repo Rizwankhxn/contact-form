@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2cece;
+}
+
+.container {
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid black;
+  background-color: rgb(182, 205, 237);
+  height: 60vh;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  padding-right: 10px;
+}
+
+label {
+  display: block;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#success-message {
+  margin-top: 20px;
+  text-align: center;
+  display: none;
+  color: green;
+}
